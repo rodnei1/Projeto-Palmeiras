@@ -1,0 +1,79 @@
+* {
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+   background-image: url(./imagens/pal.jpg);
+   
+}
+
+header {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color: white;
+    font-weight: 900;
+}
+
+.fotos2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding:15px 15px 8px;
+
+}
+.galeria-album {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 1vw;
+    color: white;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+.fotos {
+    width: 355px;
+    height: 355px;
+    box-shadow: 4px 4px 4px #03FC2C;
+    cursor: pointer;
+}
+
+.fotos:hover {
+    translate: .5s;
+    scale: 1.2;
+}
+
+.fotos-img {
+    width: 100%;
+    height: 100%;
+}
+
+#logo1 {
+    height: 80px;
+    width: 80px;
+    display: flex;
+}
+
+footer {
+    height: 100px;
+    padding-top: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+span {
+    color:white;
+    font-family:@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;500&family=Sue+Ellen+Francisco&display=swap') 
+}
+

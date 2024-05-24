@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+* {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ text-decoration: none;   
+}
+
+body{
+    background-image: url(./banner/fundobanner1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .5s;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+li:hover {
+    color: #44c87d;
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+    padding-top: 30px;
+}
+
+#trailer-container {
+    width: 100%;
+    height: 350px;
+   margin-top: 20px;
+   
+}
+
+.content {
+    width: 60%;
+    display: flex;
+    
+}
+
+.trailer {
+    width: 50%;
+    height: 60%;
+}
+
+.texto {
+    margin-right: 25px;
+    color:#258e51;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 30%;
+    justify-content: flex-end;
+    padding-top:5%;
+ 
+}
+
+.texto p {
+    color: white;
+}
+.texto h1 {
+
+    font-size: 70px;
+    font-family:font-family: 'Playfair Display', serif;
+    text-shadow: 3px 5px 1px #fff;
+    font-weight: bold;
+    
+
+} 
+
+.texto p{
+    margin: 25px 0;
+    color:white
+    font-size: 60px;
+    font-weight: bold;
+    
+}
+
+.button {
+    width: 130px;
+    height: 40px;
+    background-color:#097D39;
+    color: white;
+    align-items: center;
+    padding: 8px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .8s;
+    border: none;
+    outline: none;
+}
+
+.button:hover {
+    background-color: #fff;
+    color:#097D39;
+}
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 25px;
+    font-family:'Playfair Display', serif; 
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.foto-1 {
+    background-image: url(./imagens/presidente1.jpg);
+}
+
+.foto-2 {
+    background-image: url(./imagens/diretor2.jpg);
+}
+
+.foto-3 {
+    background-image: url(./imagens/Abel1.jpg);
+}
+
+footer {
+    height: 200px;
+    padding-top: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+span {
+    color:white;
+    font-family:@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;500&family=Sue+Ellen+Francisco&display=swap') 
+}
+
+footer-navigation{
+    display: none;
+}
+
+footer-list{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
